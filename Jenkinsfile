@@ -8,6 +8,12 @@ pipeline {
 
    stages {
       stage('Build') {
+		environment {
+            host = 'app01'
+            username = 'apiadmin'
+            password = 'changeme'
+        }
+        
          steps {
             // Get the repository from GitHub
             git 'https://github.com/AzizSudrajat/axway_devops_apiservice.git'
