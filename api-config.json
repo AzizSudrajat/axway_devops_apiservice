@@ -2,7 +2,7 @@
     "name":"DEMO Service",
     "path":"/scenario",
     "state":"published",
-    "version":"1.1.0",
+    "version":"1.2.0",
     "organization":"API Development",
     "apiDefinition": "demo-service-swagger.json",
     "image":"swagger-icon.png"
