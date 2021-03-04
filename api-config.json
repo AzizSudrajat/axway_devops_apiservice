@@ -1,10 +1,10 @@
 {
-    "name":"Petstore API",
-    "path":"/api/v1/petstore",
+    "name":"DEMO Service",
+    "path":"/api",
     "state":"published",
-    "version":"1.1.0",
+    "version":"1.0.0",
     "organization":"API Development",
-    "apiDefinition": "swagger.json",
+    "apiDefinition": "demo-service-swagger.json",
     "image":"swagger-icon.png"
  }
  
